@@ -1,0 +1,19 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-yellow {
+  background-color: #eac926;
+}
+
+.bg-light-grey {
+  background-color: #ebebeb;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.p-1 {
+  padding: 8px;
+}
