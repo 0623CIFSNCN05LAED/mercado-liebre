@@ -1,23 +1,188 @@
-ul {
-  list-style-type: none;
-}
-
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
 }
 
 .bg-yellow {
   background-color: #eac926;
 }
 
-.bg-light-grey {
+.bg-dark-grey {
+  background-color: #666;
+}
+
+.bg-grey {
   background-color: #ebebeb;
+}
+
+.bg-blue {
+  background-color: #1259c3;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.color-green {
+  color: #39b54a;
+}
+
+.font-m {
+  font-size: 12px;
+}
+.font-lg {
+  font-size: 16px;
+}
+.font-xl {
+  font-size: 18px;
+}
+.title {
+  font-size: 24px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
 }
 
 .w-50 {
   width: 50%;
 }
 
+.vw-90 {
+  width: 90vw;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.b-1 {
+  border-style: solid;
+}
+
+.bt-1 {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.b-none {
+  border: none;
+}
+
+.border-grey {
+  border-color: #ebebeb;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.color-white {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.radius-1 {
+  border-radius: 5px;
+}
+
 .p-1 {
   padding: 8px;
+}
+.p-2 {
+  padding: 20px;
+}
+
+.py-1 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.my-1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mr-1 {
+  margin-right: 8px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.gap {
+  gap: 10px;
+}
+
+.align-center {
+  align-self: center;
+}
+
+.outline-none {
+  outline: none;
+}
+
+.hide {
+  display: none;
+}
+
+.product-shadow {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.truck-icon {
+  color: green;
+  border: green solid 1px;
+  border-radius: 50%;
+  padding: 5px;
+  position: absolute;
+  right: 15px;
+  top: -15px;
+}
+
+.relative {
+  position: relative;
+}
+
+@media (min-width: 481px) {
+  /* tablet */
+  .md-w-50 {
+    width: 48%;
+  }
+}
+
+@media (min-width: 769px) {
+  /* laptop */
+  .lg-w-25 {
+    width: 23%;
+  }
+
+  .product-shadow {
+    box-shadow: none;
+  }
+}
+
+@media (min-width: 1281px) {
+  /* desktop */
 }
