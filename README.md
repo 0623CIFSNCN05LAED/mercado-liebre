@@ -2,5 +2,5 @@
 
 creo una rama
 
-actualizo la rama un poco más
+se actualizó la rama un poco más
 conflicto!!!
